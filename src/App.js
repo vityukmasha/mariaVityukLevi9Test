@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import 'reset-css';
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import {AppWrapper, MainCont, Wrapper} from "./styles";

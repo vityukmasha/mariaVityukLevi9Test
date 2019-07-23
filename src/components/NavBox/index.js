@@ -11,8 +11,8 @@ export default function NavBox({steps, currentStep}) {
             as={Link}
             to={i.route}
             disabled={currentStep < i.step}
-            active={currentStep === i.step}
-            completed={currentStep > i.step}
+            active={currentStep === i.step ? 1 : 0}
+            completed={currentStep > i.step ? 1 : 0}
           >
             <span className="step">{i.step}</span>
             <span className="title">{i.name}</span>
