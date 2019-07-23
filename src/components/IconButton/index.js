@@ -10,4 +10,7 @@ export const IconButton = styled.button`
   background: none;
   border: none;
   outline: none;
+  svg{
+    fill: #aaadb0;
+  }
 `;

@@ -15,6 +15,7 @@ export const ThankYouBox = styled.div`
     .button-box{
       display: flex;
       justify-content: space-between;
+      margin: 30px 0 0 0;
       button{
         margin: 0 10px;
       }
